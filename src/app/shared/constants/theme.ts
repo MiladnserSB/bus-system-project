@@ -1,0 +1,69 @@
+/**
+ * Theme Tokens & Visual System
+ * Derived from Figma Mockup (Row 3 · Mobile) & SRS Final v1.0
+ */
+
+export const Colors = {
+  // Brand
+  primary: '#1F3B82',          // الكحلي الرسمي لمسار
+  primaryDark: '#162A5E',
+  accent: '#E0A100',           // كهرماني التمييز
+  accentLight: '#FEF3C7',
+  
+  // Backgrounds & Surface
+  bgPage: '#F7F9FD',
+  surface: '#FFFFFF',
+  surfaceSubtle: '#F1F5F9',
+  border: '#D5DBEA',
+  borderLight: '#E2E8F0',
+  
+  // Text
+  textMain: '#1D2433',
+  textMuted: '#5B6783',
+  textSecondary: '#64748B',
+  white: '#FFFFFF',
+
+  // Status & Badges
+  success: '#059669',
+  successBg: '#E6F4EA',
+  danger: '#DC2626',
+  dangerBg: '#FEE2E2',
+  warning: '#D97706',
+  warningBg: '#FEF3C7',
+  info: '#1E40AF',
+  infoBg: '#EFF6FF',
+
+  // Seat States (Figma Map)
+  seatAvailable: '#E0F2FE',       // متاح: أزرق فاتح
+  seatAvailableBorder: '#38BDF8',
+  seatAvailableText: '#0284C7',
+  seatBooked: '#FEE2E2',          // محجوز: أحمر فاتح
+  seatBookedBorder: '#F87171',
+  seatBookedText: '#DC2626',
+  seatHeld: '#FEF3C7',            // قيد الحجز مؤقتاً: أصفر
+  seatHeldBorder: '#FBBF24',
+  seatHeldText: '#D97706',
+  seatSelected: '#1F3B82',        // اختيارك: أزرق داكن
+  seatSelectedBorder: '#162A5E',
+  seatSelectedText: '#FFFFFF',
+  seatExtra: '#F97316',           // المقعد الإضافي 11E
+};
+
+export const Layout = {
+  minTouchSize: 44, // مساحة اللمس >= 44px حسب SRS ص 14
+  borderRadius: {
+    sm: 6,
+    md: 10,
+    lg: 14,
+    xl: 20,
+    full: 9999,
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 12,
+    lg: 16,
+    xl: 20,
+    xxl: 24,
+  },
+};
